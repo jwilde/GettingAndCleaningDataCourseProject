@@ -74,4 +74,4 @@ mean_data <- arrange(mean_data, subject, activity)
 rm(train_subject, train_label, train_set, test_subject, test_label, test_set, training_data, test_data, features, activities )
 
 # for submission only
-write.table(mean_data, "tidy_data.txt", row.name=FALSE)
+# write.table(mean_data, "tidy_data.txt", row.name=FALSE)
